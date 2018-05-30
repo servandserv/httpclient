@@ -1,5 +1,5 @@
 # httpclient
-##HTTP Client port implementation
+## HTTP Client port implementation
 1. From client
 a) Receive http requests from client(xml|json|application/x-www-form-urlencoded)
 b) Translate them into data adaptors (\com\servandserv\data\DataAdaptor interface)
@@ -7,7 +7,7 @@ b) Translate them into data adaptors (\com\servandserv\data\DataAdaptor interfac
 2. To Client
 a) Get data adaptor and translate it into xml/json data
 
-##Example
+## Example
 ```
 $conf = [
     "POST" => [
